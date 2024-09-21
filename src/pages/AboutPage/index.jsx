@@ -4,11 +4,12 @@ import React from 'react';
 const IntroductionPage = () => {
   return (
 <div className="container mx-auto px-4">
-  <div className="text-center mt-[50px] mb-[5px]">
+  {/* Dương update bỏ margin top để chứa header nha */}
+  <div className="text-center mb-[5px]">
     <h2 className="text-[#f8fafc] text-4xl font-black">Trang giới thiệu</h2>
   </div>
-
-  <div className="relative pt-10 pb-20 pr-10 pl-10">
+  {/* Chổ này update pt-10 thành pt-14 để không dính ảnh nè */}
+  <div className="relative pt-14 pb-20 pr-10 pl-10">
     <div className="absolute inset-0 rounded-lg"></div>
     <img
       src="https://api-website.cinestar.com.vn/media/wysiwyg/CMSPage/Abouts/ht-qc-br.jpg"
@@ -32,12 +33,12 @@ const IntroductionPage = () => {
     </div>
     <div>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {listmission.map((mission, index) => (
+        {/* {listmission.map((mission, index) => (
           <div key={index} className="text-center p-4 bg-gray-800 rounded-lg">
             <h2 className="text-3xl text-white font-bold">{mission.title}</h2>
             <p className="text-white mt-4">{mission.content}</p>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   </div>
