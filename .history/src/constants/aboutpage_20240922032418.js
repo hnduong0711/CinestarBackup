@@ -1,17 +1,14 @@
 import {DL1, QT1, BD1, GYM1, HBT1, HUE1, KG1, LD1, UD1, MYTHO1} from "../assets";
 const listmission = [
     {
-        id : 1,
         title: "01",
         content : "Góp phần tăng trưởng thị phần điện ảnh, văn hóa, giải trí của người Việt Nam"
     },
     {
-        id: 2,
         title: "02",
         content : "Phát triển dịch vụ xuất sắc với mức giá tối ưu, phù hợp với thu nhập người Việt Nam."
     },
     {
-        id: 3,
         title: "03",
         content : "Mang nghệ thuật điện ảnh, văn hóa Việt Nam hội nhập quốc tế."
     }

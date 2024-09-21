@@ -36,7 +36,6 @@ import KG1 from './Locations/KG1.jpg'
 import LD1 from './Locations/LD1.jpg'
 import MYTHO1 from './Locations/MYTHO1.jpg'
 import UD1 from './Locations/UD1.jpg'
-import About from './Locations/About/about.jpg'
 
 
 
@@ -79,5 +78,4 @@ export {
     LD1,
     MYTHO1,
     UD1,
-    About,
 }

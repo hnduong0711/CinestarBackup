@@ -1,9 +1,12 @@
+
+
+
+
 import React from 'react';
 import { listmission, locations } from '../../constants/aboutpage';
 import MissionSection from './MissionSection';
 import LocationsSection from './LocationsSection';
 import HeaderSection from './HeaderSection';
-import About from './About';
 
 const IntroductionPage = () => {
   return (
@@ -17,10 +20,6 @@ const IntroductionPage = () => {
       <MissionSection listmission={listmission} />
       
       <LocationsSection locations={locations} />
-
-      <About />
-
-
     </div>
   );
 };

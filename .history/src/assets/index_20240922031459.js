@@ -30,13 +30,12 @@ import QT1 from './Locations/QT1.jpg'
 import DL1 from './Locations/DL1.jpg'
 import BD1 from './Locations/BD1.jpg'
 import GYM1 from './Locations/GYM1.jpg'
-import HBT1 from './Locations/HBT1.jpg'
-import HUE1 from './Locations/HUE1.jpg'
+import HBT from './Locations/HBT1.jpg'
+import HUE from './Locations/HUE1.jpg'
 import KG1 from './Locations/KG1.jpg'
 import LD1 from './Locations/LD1.jpg'
-import MYTHO1 from './Locations/MYTHO1.jpg'
+import MYTHO from './Locations/MYTHO1.jpg'
 import UD1 from './Locations/UD1.jpg'
-import About from './Locations/About/about.jpg'
 
 
 
@@ -71,13 +70,4 @@ export {
     FilmTest4,
     QT1,
     DL1,
-    BD1,
-    GYM1,
-    HBT1,
-    HUE1,
-    KG1,
-    LD1,
-    MYTHO1,
-    UD1,
-    About,
 }

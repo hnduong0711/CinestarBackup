@@ -3,6 +3,7 @@ import { listmission, locations } from '../../constants/aboutpage';
 import MissionSection from './MissionSection';
 import LocationsSection from './LocationsSection';
 import HeaderSection from './HeaderSection';
+import AboutUS from '../../assets';
 import About from './About';
 
 const IntroductionPage = () => {
