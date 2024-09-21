@@ -54,7 +54,7 @@ const IntroductionPage = () => {
               />
           </div>
           <div className='text-center'>
-          <p className="text-[#f8fafc] text-2xl font-medium mt-4" style={{fontFamily: 'Anton, sans-serif'}}>{inf.title}</p>
+          <p className="text-[#f8fafc] text-2xl font-black mt-4" style={{fontFamily: 'Anton, sans-serif'}}>{inf.title}</p>
           </div>
           </div>
         

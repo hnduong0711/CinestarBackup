@@ -59,7 +59,5 @@ export {
     FilmTest1,
     FilmTest2,
     FilmTest3,
-    FilmTest4,
-    QT1,
-    DL1,
+    FilmTest4
 }

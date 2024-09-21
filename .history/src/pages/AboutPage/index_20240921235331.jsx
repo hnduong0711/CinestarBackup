@@ -16,7 +16,7 @@ const IntroductionPage = () => {
       alt="Image description"
       className="w-full h-[350px] md:h-[450px] object-cover  rounded-lg"
     />
-    <div className="absolute inset-0 bg-black bg-opacity-60 rounded-lg top-[43px] bottom-[80px] right-[40px] left-[40px]"></div>
+    
     <div className="absolute inset-0 flex items-center justify-center ">
       <div className="text-white text-center p-6 bg-black bg-opacity-0 rounded-lg">
         <h1 className="text-2xl font-bold mb-4 font-black text-[#f8fafc]">HỆ THỐNG CỤM RẠP TRÊN TOÀN QUỐC</h1>
@@ -54,7 +54,7 @@ const IntroductionPage = () => {
               />
           </div>
           <div className='text-center'>
-          <p className="text-[#f8fafc] text-2xl font-medium mt-4" style={{fontFamily: 'Anton, sans-serif'}}>{inf.title}</p>
+          <p className="text-[#f8fafc] text-2xl font-black mt-4" style={{fontFamily: 'Anton, sans-serif'}}>{inf.title}</p>
           </div>
           </div>
         

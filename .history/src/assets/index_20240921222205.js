@@ -26,8 +26,6 @@ import FilmTest1 from './Filmtest/f1.webp'
 import FilmTest2 from './Filmtest/f2.jpg'
 import FilmTest3 from './Filmtest/f3.jpg'
 import FilmTest4 from './Filmtest/f4.jpg'
-import QT1 from './Locations/QT1.jpg'
-import DL1 from './Locations/DL1.jpg'
 
 
 
@@ -59,7 +57,5 @@ export {
     FilmTest1,
     FilmTest2,
     FilmTest3,
-    FilmTest4,
-    QT1,
-    DL1,
+    FilmTest4
 }

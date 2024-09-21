@@ -1,4 +1,4 @@
-import {DL1, QT1} from "../assets";
+import {QT} from "../assets";
 const listmission = [
     {
         title: "01",
@@ -17,12 +17,8 @@ const listmission = [
 
 const locations = [
     {
-        location : QT1,
+        location : QT,
         title : "CINESTAR QUỐC THANH"
-    },
-    {
-        location : DL1,
-        title : "CINESTAR ĐÀ LẠT"
     }
 ]
 

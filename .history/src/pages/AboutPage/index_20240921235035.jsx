@@ -9,7 +9,7 @@ const IntroductionPage = () => {
     <h2 className="text-[#f8fafc] text-4xl font-black">Trang giới thiệu</h2>
   </div>
   {/* Chổ này update pt-10 thành pt-14 để không dính ảnh nè */}
-  <div className="relative pt-14 pb-20 pr-10 pl-10">
+ 
     <div className="absolute inset-0 rounded-lg"></div>
     <img
       src="https://api-website.cinestar.com.vn/media/wysiwyg/CMSPage/Abouts/ht-qc-br.jpg"
@@ -24,7 +24,7 @@ const IntroductionPage = () => {
           Cinestar là một trong những hệ thống rạp chiếu phim được yêu thích nhất tại Việt Nam, cung cấp nhiều mô hình giải trí hấp dẫn bao gồm Các Cụm Rạp Chiếu Phim hiện đại, Nhà hát, Khu vui chơi trẻ em Kidzone, Bowling, Billiards, Games, Phòng Gym, Nhà Hàng, và Phố Bia C'Beer. Với mục tiêu trở thành điểm đến giải trí cho mọi gia đình Việt Nam, Cinestar đang được biết đến là cụm rạp ủng hộ phim Việt, góp phần phát triển điện ảnh Việt. Không chỉ chiếu các bộ phim bom tấn quốc tế, Cinestar còn đồng hành cùng các nhà làm phim Việt Nam, đưa những tác phẩm điện ảnh đặc sắc của Việt Nam đến gần hơn với khán giả.
         </p>
       </div>
-    </div>
+   
   </div>
 
   <div className="pb-[6rem]">
@@ -54,7 +54,7 @@ const IntroductionPage = () => {
               />
           </div>
           <div className='text-center'>
-          <p className="text-[#f8fafc] text-2xl font-medium mt-4" style={{fontFamily: 'Anton, sans-serif'}}>{inf.title}</p>
+          <p className="text-[#f8fafc] text-2xl font-black mt-4" style={{fontFamily: 'Anton, sans-serif'}}>{inf.title}</p>
           </div>
           </div>
         

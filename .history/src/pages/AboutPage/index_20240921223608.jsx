@@ -1,6 +1,7 @@
 // src/IntroductionPage.js
 import React from 'react';
-import {listmission, locations} from '../../constants/aboutpage'
+import {listmission} from '../../constants/aboutpage'
+
 const IntroductionPage = () => {
   return (
 <div className="container mx-auto px-4">
@@ -27,39 +28,20 @@ const IntroductionPage = () => {
     </div>
   </div>
 
-  <div className="pb-[6rem]">
+  <div className="">
     <div className="text-center mt-[50px] mb-[5px]">
-      <h2 className="text-[#f8fafc] text-[40px] font-medium pb-[4rem]" style={{fontFamily: 'Anton, sans-serif'}}>SỨ MỆNH</h2>
+      <h2 className="text-[#f8fafc] text-4xl font-black ">SỨ MỆNH</h2>
     </div>
     <div>
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8" style={{ borderRadius: '10px' }}>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {listmission.map((mission, index) => (
-          <div key={index} className="text-center p-4 rounded-lg" style={{background: '#365fbf'}}>
-            <h2 className="text-[36px] font-antons text-white font-extrabold" style={{color: '#f3ea28'}}>{mission.title}</h2>
+          <div key={index} className="text-center p-4 bg-gray-800 rounded-lg">
+            <h2 className="text-3xl text-white font-bold">{mission.title}</h2>
             <p className="text-white mt-4">{mission.content}</p>
           </div>
         ))}
       </div>
     </div>
-  </div>
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-  {locations.map((inf, index) => (
-          <div>
-            <div key={index} className="text-center p-4 rounded-lg" style={{background: 'none'}}>
-             <img 
-                src={inf.location} 
-                alt={inf.title} 
-                className="w-full h-auto rounded-lg mb-2" // Điều chỉnh kích thước ảnh nếu cần
-              />
-          </div>
-          <div className='text-center'>
-          <p className="text-[#f8fafc] text-2xl font-medium mt-4" style={{fontFamily: 'Anton, sans-serif'}}>{inf.title}</p>
-          </div>
-          </div>
-        
-        ))}
-    
   </div>
 </div>
 

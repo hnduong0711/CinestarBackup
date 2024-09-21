@@ -29,7 +29,7 @@ const IntroductionPage = () => {
 
   <div className="pb-[6rem]">
     <div className="text-center mt-[50px] mb-[5px]">
-      <h2 className="text-[#f8fafc] text-[40px] font-medium pb-[4rem]" style={{fontFamily: 'Anton, sans-serif'}}>SỨ MỆNH</h2>
+      <h2 className="text-[#f8fafc] text-[40px] font-medium " style={{fontFamily: 'Anton, sans-serif'}}>SỨ MỆNH</h2>
     </div>
     <div>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8" style={{ borderRadius: '10px' }}>
@@ -54,7 +54,7 @@ const IntroductionPage = () => {
               />
           </div>
           <div className='text-center'>
-          <p className="text-[#f8fafc] text-2xl font-medium mt-4" style={{fontFamily: 'Anton, sans-serif'}}>{inf.title}</p>
+          <p className="text-[#f8fafc] text-2xl font-black mt-4" style={{fontFamily: 'Anton, sans-serif'}}>{inf.title}</p>
           </div>
           </div>
         

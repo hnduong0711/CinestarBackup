@@ -1,4 +1,4 @@
-import {DL1, QT1} from "../assets";
+import {DL1, QT} from "../assets";
 const listmission = [
     {
         title: "01",
