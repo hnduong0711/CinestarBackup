@@ -17,7 +17,6 @@ const Homepage = () => {
         <SearchBox />
       </SearchContextWrapper>
       <Now />
-      <Outlet />
       <ComingSoon />
       <Promotion />
       <Contact />
