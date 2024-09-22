@@ -17,39 +17,38 @@ const SystemOfCinema = () =>{
                 <div className="w-1/2 p-4">
                     <div className='grid grid-cols-1 md:grid-cols-1 gap-8'>
                     {imformation.map((info) => (
-                        <div key={info.id} className="text-left p-4 bg-custom-gradient">
+                        <div key={info.id} className="text-left p-4 bg-custom-gradient space-y-4">
                             <h2 className="text-[24px] font-medium mb-2 text-white font-title uppercase">{info.title}</h2>
                             
                             {info.room && (
-                            <p className="flex items-center text-white font-content mb-[12px]">
+                            <p className="flex items-center text-white font-content mb-6">
                                 <img src="https://cinestar.com.vn/assets/images/ic-branch-room.svg" alt="" className="w-[25px] mr-2" />
                                 <a href="#" className="text-white hover:text-cinestar-gold" onClick={(e) => e.preventDefault()}>{info.room}</a>
                             </p>
                             )}
 
                             <a href={info.map} target="_blank" rel="noopener noreferrer">
-                            <p className={`flex items-center text-white font-content hover:text-cinestar-gold mb-[12px] ${info.id > 1 ? 'underline underline-offset-4' : ''}`}>
+                            <p className={`flex items-center text-white font-content hover:text-cinestar-gold mb-6 ${info.id > 1 ? 'underline underline-offset-4' : ''}`}>
                                 <img src="https://cinestar-api.monamedia.net/pub/template/assets/images/ts-1.svg" alt="" className="w-[25px] mr-2" /> 
                                 {info.address}
                             </p>
                             </a>
                             
                             {info.email && (
-                            <p className="flex items-center text-white font-content mb-[12px]">
+                            <p className="flex items-center text-white font-content mb-6">
                                 <img src="https://cinestar-api.monamedia.net/pub/template/assets/images/ts-2.svg" alt="" className="w-[25px] mr-2" />
                                 <a href={info.email} className={`text-white underline underline-offset-4 hover:text-cinestar-gold ${info.id === 1 ? '' : 'no-underline'}`}>{info.emailContent}</a>
                             </p>
                             )}
 
                             {info.numberphone && (
-                            <p className="flex items-center text-white font-content mb-[12px]">
+                            <p className="flex items-center text-white font-content mb-6">
                                 <img src="https://cinestar-api.monamedia.net/pub/template/assets/images/ts-3.svg" alt="" className="w-[25px] mr-2" />
                                 <a href={info.phone} className="text-white hover:text-cinestar-gold">{info.numberphone}</a>
                             </p>
                             )}
                         </div>
                         ))}
-
 
                     </div>
                 </div>

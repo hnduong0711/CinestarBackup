@@ -46,9 +46,6 @@ export default {
       borderRadius: {
         'custom-10px': '10px',  // Khai báo border radius tùy chỉnh
       },
-      textUnderlineOffset: {
-        4: '4px',
-      },
     },
   },
   plugins: [

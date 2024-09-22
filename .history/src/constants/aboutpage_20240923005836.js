@@ -58,26 +58,10 @@ const imformation = [
     },
     {
         id : 7,
-        title : "Cinestar Lâm Đồng",
-        room : "4 phòng chiếu với 853 ghế.",
-        address : "713 QL20, Liên Nghĩa, Đức Trọng, Lâm Đồng",
-        map: "https://maps.app.goo.gl/hLdjEcyhQPLcVBpd8",
-        
-    },
-    {
-        id : 8,
-        title : "Cinestar Đà Lạt",
-        room : "6 phòng chiếu với 1592 ghế",
-        address : "Quảng trường Lâm Viên, P10, TP.Đà Lạt, Lâm Đồng",
-        map: "https://maps.app.goo.gl/sYAgq34E14rGHfux6",
-        
-    },
-    {
-        id : 9,
-        title : "Cinestar Huế",
-        room : "8 phòng chiếu với 1200 ghế.",
-        address : "25 Hai Bà Trưng, Vĩnh Ninh, Thành phố Huế, Thừa Thiên Huế",
-        map: "https://maps.app.goo.gl/dHSwzFYxHbfnoGLh8",
+        title : "Cinestar Kiên Giang",
+        room : "4 phòng chiếu với 750 ghế.",
+        address : "Lô A2 - Khu 2 Trung tâm Thương mại Rạch Sỏi, Đường Nguyễn Chí Thanh, Phường Rạch Sỏi, Thành phố Rạch Giá, Tỉnh Kiên Giang",
+        map: "https://maps.app.goo.gl/PNxcAXq6QVZL5Tdp6",
         
     }
 ]

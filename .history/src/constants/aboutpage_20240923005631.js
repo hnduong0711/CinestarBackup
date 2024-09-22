@@ -35,49 +35,18 @@ const imformation = [
     {
         id : 4,
         title : "Cinestar Sinh Viên (Bình Dương)",
-        room : "4 phòng chiếu với 881 ghế.",
+        room : "4 phòng chiếu với 881 ghế",
         address : "Nhà văn hóa sinh viên, Đại học Quốc gia HCM, P.Đông Hòa,Dĩ An,Bình Dương",
         map: "https://www.google.com/maps/place/Cinestar+Sinh+Vi%C3%AAn/@10.8751203,106.7977216,17z/data=!3m1!4b1!4m6!3m5!1s0x3174d92902cd3bd1:0x306b37a211e5deef!8m2!3d10.8751203!4d106.8002965!16s%2Fg%2F11gxwqgrg4?entry=ttu",
         
-    },
+    }
+    ,
     {
         id : 5,
-        title : "Cinestar Mỹ Tho",
-        room : "5 phòng chiếu với 912 ghế.",
-        address : "52 Đinh Bộ Lĩnh, Phường 3, Thành phố Mỹ Tho, Tiền Giang",
-        map: "https://www.google.com/maps/place/Cinestar+M%E1%BB%B9+Tho/@10.3556609,106.3688009,17z/data=!3m1!4b1!4m6!3m5!1s0x310aafcf3e3e46d7:0x9c8785d5b0bd58b5!8m2!3d10.3556609!4d106.3713758!16s%2Fg%2F11g2z95n8z?entry=ttu",
-        
-    },
-    {
-        id : 6,
-        title : "Cinestar Kiên Giang",
-        room : "4 phòng chiếu với 750 ghế.",
-        address : "Lô A2 - Khu 2 Trung tâm Thương mại Rạch Sỏi, Đường Nguyễn Chí Thanh, Phường Rạch Sỏi, Thành phố Rạch Giá, Tỉnh Kiên Giang",
-        map: "https://maps.app.goo.gl/PNxcAXq6QVZL5Tdp6",
-        
-    },
-    {
-        id : 7,
-        title : "Cinestar Lâm Đồng",
-        room : "4 phòng chiếu với 853 ghế.",
-        address : "713 QL20, Liên Nghĩa, Đức Trọng, Lâm Đồng",
-        map: "https://maps.app.goo.gl/hLdjEcyhQPLcVBpd8",
-        
-    },
-    {
-        id : 8,
-        title : "Cinestar Đà Lạt",
-        room : "6 phòng chiếu với 1592 ghế",
-        address : "Quảng trường Lâm Viên, P10, TP.Đà Lạt, Lâm Đồng",
-        map: "https://maps.app.goo.gl/sYAgq34E14rGHfux6",
-        
-    },
-    {
-        id : 9,
-        title : "Cinestar Huế",
-        room : "8 phòng chiếu với 1200 ghế.",
-        address : "25 Hai Bà Trưng, Vĩnh Ninh, Thành phố Huế, Thừa Thiên Huế",
-        map: "https://maps.app.goo.gl/dHSwzFYxHbfnoGLh8",
+        title : "Cinestar Sinh Viên (Bình Dương)",
+        room : "4 phòng chiếu với 881 ghế",
+        address : "Nhà văn hóa sinh viên, Đại học Quốc gia HCM, P.Đông Hòa,Dĩ An,Bình Dương",
+        map: "https://www.google.com/maps/place/Cinestar+Sinh+Vi%C3%AAn/@10.8751203,106.7977216,17z/data=!3m1!4b1!4m6!3m5!1s0x3174d92902cd3bd1:0x306b37a211e5deef!8m2!3d10.8751203!4d106.8002965!16s%2Fg%2F11gxwqgrg4?entry=ttu",
         
     }
 ]

@@ -14,7 +14,6 @@ export default {
     backgroundImage: {
       "blur-right": "url('/assets/blur-right.webp')",
       "blur-left": "url('/assets/blur-left.webp')",
-      'custom-gradient': 'linear-gradient(90deg, rgba(86,47,132,1) 15%, rgba(47,84,171,1) 85%)',
     },
     fontFamily: {
       title: ["Anton", "sans-serif"],
@@ -34,7 +33,7 @@ export default {
         "cinestar-custom-white" : '#f8fafc', // trắng cho chữ
         "cinestar-custom-blue": "#365fbf",
         "cinestar-custom-yellow" : "#f3ea28",
-        "cinestar-custom-bule" : "rgb(86,47,132)",
+        "cinestar-custom-562f84" : "#562F84"
       
 
       },
@@ -45,9 +44,6 @@ export default {
 
       borderRadius: {
         'custom-10px': '10px',  // Khai báo border radius tùy chỉnh
-      },
-      textUnderlineOffset: {
-        4: '4px',
       },
     },
   },

@@ -17,7 +17,7 @@ const SystemOfCinema = () =>{
                 <div className="w-1/2 p-4">
                     <div className='grid grid-cols-1 md:grid-cols-1 gap-8'>
                     {imformation.map((info) => (
-                        <div key={info.id} className="text-left p-4 bg-custom-gradient">
+                        <div key={info.id} className="text-left p-4 bg-custom-gradient space-y-4">
                             <h2 className="text-[24px] font-medium mb-2 text-white font-title uppercase">{info.title}</h2>
                             
                             {info.room && (
@@ -49,7 +49,6 @@ const SystemOfCinema = () =>{
                             )}
                         </div>
                         ))}
-
 
                     </div>
                 </div>
