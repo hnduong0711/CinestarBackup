@@ -10,7 +10,7 @@ const MissionSection = ({ listmission }) => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 custom-10px">
           {listmission.map((mission) => (
             <div key={mission.id} className="text-center p-4 rounded-lg bg-cinestar-custom-blue">
-              <h2 className="text-[36px] font-antons text-white font-extrabold text-cinestar-custom-yellow">{mission.title}</h2>
+              <h2 className="text-[36px] font-antons text-white font-extrabold bg-cinestar-custom-yellow">{mission.title}</h2>
               <p className="text-white mt-4">{mission.content}</p>
             </div>
           ))}

@@ -17,7 +17,6 @@ export default {
     },
     fontFamily: {
       title: ["Anton", "sans-serif"],
-      content : ["josefin sans", "sans-serif"]
       
     },
     extend: {
@@ -31,8 +30,7 @@ export default {
         "cinestar-orange": "#FF7201",
         "cinestar-black-opacity": "rgba(15, 23, 42, 0.7)",
         "cinestar-custom-white" : '#f8fafc', // trắng cho chữ
-        "cinestar-custom-blue": "#365fbf",
-        "cinestar-custom-yellow" : "#f3ea28",
+        "cinestar-custom-blue": "#365fbf"
       
 
       },

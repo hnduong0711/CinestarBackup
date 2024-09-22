@@ -1,5 +1,5 @@
 import React from 'react';
-import { listmission, locations, imformation } from '../../constants/aboutpage';
+import { listmission, locations } from '../../constants/aboutpage';
 import MissionSection from './MissionSection';
 import LocationsSection from './LocationsSection';
 import HeaderSection from './HeaderSection';

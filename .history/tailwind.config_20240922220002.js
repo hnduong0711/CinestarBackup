@@ -17,7 +17,6 @@ export default {
     },
     fontFamily: {
       title: ["Anton", "sans-serif"],
-      content : ["josefin sans", "sans-serif"]
       
     },
     extend: {

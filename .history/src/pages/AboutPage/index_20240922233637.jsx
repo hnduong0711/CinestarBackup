@@ -21,7 +21,7 @@ const IntroductionPage = () => {
 
       <About />
 
-      <SystemOfCinema/>
+      <SystemOfCinema imformation ={imformation}/>
 
 
     </div>

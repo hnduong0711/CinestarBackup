@@ -17,8 +17,7 @@ export default {
     },
     fontFamily: {
       title: ["Anton", "sans-serif"],
-      content : ["josefin sans", "sans-serif"]
-      
+      'anton': ['Anton', 'sans-serif'],
     },
     extend: {
       colors: {
@@ -30,19 +29,13 @@ export default {
         "cinestar-purple": "#663399", //Màu tím
         "cinestar-orange": "#FF7201",
         "cinestar-black-opacity": "rgba(15, 23, 42, 0.7)",
-        "cinestar-custom-white" : '#f8fafc', // trắng cho chữ
-        "cinestar-custom-blue": "#365fbf",
-        "cinestar-custom-yellow" : "#f3ea28",
+        "cinester-custom-white" : '#f8fafc', // trắng cho chữ
       
 
       },
       backgroundImage: {
         "purple-blue-gradient": "linear-gradient(to right, #7b2cbf, #4a90e2)",
         "orange-yellow-gradient": "linear-gradient(to right, #ffa500, #ff4500)",
-      },
-
-      borderRadius: {
-        'custom-10px': '10px',  // Khai báo border radius tùy chỉnh
       },
     },
   },

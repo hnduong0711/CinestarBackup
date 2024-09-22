@@ -12,15 +12,6 @@ const imformation = [
         email : "mailto:marketing.cinestar@gmail.com",
         phone : "tel:028 7300 7279",
 
-    },
-    {
-        id : 2,
-        title : "TRỤ SỞ | HEADQUARTER",
-        address : "135 Hai Bà Trưng, Phường Bến Nghé, Quận 1",
-        map: "https://maps.app.goo.gl/d7S3pWtnwCc7P2Dy5",
-        email : "mailto:marketing.cinestar@gmail.com",
-        phone : "tel:028 7300 7279",
-
     }
 ]
 

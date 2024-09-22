@@ -13,7 +13,7 @@ const LocationsSection = ({ locations }) => {
             />
           </div>
           <div className='text-center'>
-            <p className="text-[#f8fafc] text-2xl font-medium mt-4 font-title">{inf.title}</p>
+            <p className="text-[#f8fafc] text-2xl font-medium mt-4" style={{fontFamily: 'Anton, sans-serif'}}>{inf.title}</p>
           </div>
         </div>
       ))}

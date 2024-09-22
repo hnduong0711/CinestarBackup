@@ -5,22 +5,7 @@ import {DL1, QT1, BD1, GYM1, HBT1, HUE1, KG1, LD1, UD1, MYTHO1} from "../assets"
 
 const imformation = [
     {
-        id : 1,
-        title : "TRỤ SỞ | HEADQUARTER",
-        address : "135 Hai Bà Trưng, Phường Bến Nghé, Quận 1",
-        map: "https://maps.app.goo.gl/d7S3pWtnwCc7P2Dy5",
-        email : "mailto:marketing.cinestar@gmail.com",
-        phone : "tel:028 7300 7279",
-
-    },
-    {
-        id : 2,
-        title : "TRỤ SỞ | HEADQUARTER",
-        address : "135 Hai Bà Trưng, Phường Bến Nghé, Quận 1",
-        map: "https://maps.app.goo.gl/d7S3pWtnwCc7P2Dy5",
-        email : "mailto:marketing.cinestar@gmail.com",
-        phone : "tel:028 7300 7279",
-
+        
     }
 ]
 
@@ -97,4 +82,4 @@ const locations = [
     }
 ]
 
-export {listmission, locations, imformation};
+export {listmission, locations};

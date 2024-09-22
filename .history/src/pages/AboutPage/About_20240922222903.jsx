@@ -3,7 +3,7 @@ import aboutImage from '../../assets/Locations/About/about.jpg'; // Nhập hình
 
 const About = () => {
   return (
-    <div className='text-center pt-[10rem]'>
+    <div className='text-center pt-[10rem] pb-[10rem]'>
       
       {/* Tiêu đề */}
       <div className='text-[#f8fafc] text-[40px] font-medium font-title mb-[2rem]'>
@@ -11,7 +11,7 @@ const About = () => {
       </div>
 
       {/* Mô tả */}
-      <p className='text-[#f8fafc] text-[16px] max-w-[42rem] mx-auto leading-[2] mb-[4rem] font-content'>
+      <p className='text-[#f8fafc] text-[16px] max-w-[42rem] mx-auto leading-[2] mb-[4rem]'>
         Các phòng chiếu được trang bị các thiết bị tiên tiến như hệ thống âm thanh vòm, màn hình rộng và độ phân giải cao, tạo nên hình ảnh sắc nét và âm thanh sống động.
       </p>
 
