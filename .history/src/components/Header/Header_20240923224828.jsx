@@ -12,18 +12,17 @@ import ComboBox from "../Cbbox/ComboBox";
 import GlobalContext from "../../context/GlobalContext/GlobalContext";
 import SearchModal from "../Modal/SearchModal";
 import { listTheater, subnav } from "../../constants/header";
-import { Link } from "react-router-dom";
-import { useNavigate } from 'react-router-dom';
+import { Link, useHistory } from "react-router-dom";
 
 const Header = () => {
   const isSmallScreen = useWindowSize();
   const { setIsShowModal } = useContext(GlobalContext);
-  const navigate = useNavigate();
+  const history = useHistory();
   const showModal = () => {
     setIsShowModal((prev) => !prev);
   };
   const handleClick = () => {
-    navigate('/popcorn-drink');
+    history.push("/popcorn-drink"); // Điều hướng đến trang popcorn-drink
   };
 
   return (

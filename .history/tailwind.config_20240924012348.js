@@ -36,7 +36,6 @@ export default {
         "cinestar-custom-yellow" : "#f3ea28",
         "cinestar-custom-bule" : "rgb(86,47,132)",
         "cinestar-button-food" : "#94A3BB",
-        "cinestar-button-food-hover" : "#f3ea28",
       
 
       },

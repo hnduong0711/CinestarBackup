@@ -18,13 +18,12 @@ import { useNavigate } from 'react-router-dom';
 const Header = () => {
   const isSmallScreen = useWindowSize();
   const { setIsShowModal } = useContext(GlobalContext);
-  const navigate = useNavigate();
+  const history = useNavigate();
   const showModal = () => {
     setIsShowModal((prev) => !prev);
   };
-  const handleClick = () => {
-    navigate('/popcorn-drink');
-  };
+  const navigate = useNavigate();
+  navigate('/popcorn-drink');
 
   return (
     <div className="bg-cinestar-black flex-wrap py-4 xs:px-2 md:px-5 lg:px-20 fixed w-full left-0 z-[1000]">
